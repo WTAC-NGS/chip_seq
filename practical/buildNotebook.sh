@@ -4,7 +4,8 @@ cd  Notebooks/
 
 ## Merge ipython notebooks in to one
 nbmerge index.ipynb \
-	alignment-visualisation.ipynb \
+	dataset-intro.ipynb \
+	pax5-alignment.ipynb \
 	manipulate-sam.ipynb \
 	alignment-visualisation.ipynb \
 	control-alignment.ipynb \
@@ -12,6 +13,7 @@ nbmerge index.ipynb \
 	file-formats.ipynb \
 	inspecting-genomic-regions.ipynb \
 	motif-analysis.ipynb >  ChIP-Seq.ipynb
+
 
 ## Convert the main ipynb to PDF and remove it
 jupyter-nbconvert --to pdf  ChIP-Seq.ipynb
