@@ -4,7 +4,8 @@ cd  Notebooks/
 
 ## Merge ipython notebooks in to one
 nbmerge index.ipynb \
-	alignment-visualisation.ipynb \
+	dataset-intro.ipynb \
+	pax5-alignment.ipynb \
 	manipulate-sam.ipynb \
 	alignment-visualisation.ipynb \
 	control-alignment.ipynb \
@@ -24,5 +25,3 @@ cd ..
 ## move final pdfs to practicals folder
 mv Notebooks/ChIP-Seq.pdf ./ChIP-Seq.pdf
 mv Notebooks/answers.pdf ./ChIP-Seq-Answers.pdf
-
-
