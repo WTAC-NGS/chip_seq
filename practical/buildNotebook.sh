@@ -14,6 +14,7 @@ nbmerge index.ipynb \
 	inspecting-genomic-regions.ipynb \
 	motif-analysis.ipynb >  ChIP-Seq.ipynb
 
+
 ## Convert the main ipynb to PDF and remove it
 jupyter-nbconvert --to pdf  ChIP-Seq.ipynb
 rm  ChIP-Seq.ipynb
